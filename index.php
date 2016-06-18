@@ -24,6 +24,12 @@
   );
 
   print_r($thirdArray);
+
+  $anotherArray[]="salad";
+
+  echo "<br /><br />";
+
+  print_r($anotherArray);
        
 
 
