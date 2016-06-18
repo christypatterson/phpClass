@@ -13,4 +13,18 @@
 
   print_r($anotherArray);
 
+  echo "<br /><br/>";
+
+  $thirdArray=array(
+
+       "France" => "French",
+       "USA" => "English",
+       "Germany" => "German"
+
+  );
+
+  print_r($thirdArray);
+       
+
+
 ?>
