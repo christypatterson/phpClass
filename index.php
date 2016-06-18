@@ -4,4 +4,6 @@
 
   print_r($myArray);
 
+  echo $myArray[2];
+
 ?>
