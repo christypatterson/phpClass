@@ -31,6 +31,10 @@
 
   print_r($anotherArray);
        
+  echo "<br /><br />";
 
+  unset($thirdArray["Germany"]);
+
+  print_r($thirdArray);
 
 ?>
