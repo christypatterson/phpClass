@@ -37,4 +37,12 @@
 
   print_r($thirdArray);
 
+  echo "<br /><br />";
+
+  $name="Shem";
+
+  unset($name);
+
+  echo $name;
+
 ?>
