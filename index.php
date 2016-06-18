@@ -2,6 +2,10 @@
 
   $number=1;
 
-  echo $number;
+  if ($number==1)  {
+
+    echo "True";
+
+  }
 
 ?>
