@@ -4,7 +4,7 @@
   $otherNumber=2;
   $thirdNumber=2;
 
-  if ($number==$otherNumber AND $thirdNumber==$otherNumber)  {
+  if ($number==$otherNumber OR $thirdNumber==$otherNumber)  {
 
     echo "True";
 
