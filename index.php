@@ -1,48 +1,17 @@
 <?php
 
-  $myArray=array("pizza", "chocolate", "juice");
+  $number=1;
+  $otherNumber=2;
+  $thirdNumber=2;
 
-  print_r($myArray);
+  if ($number==$otherNumber OR $thirdNumber==$otherNumber)  {
 
-  echo $myArray[5];
+    echo "True";
 
-  echo "<br /><br />";
+  }  else  {
 
-  $anotherArray[0]="pretzel";
-  $anotherArray[1]="bagel";
+    echo "False";
 
-  print_r($anotherArray);
-
-  echo "<br /><br/>";
-
-  $thirdArray=array(
-
-       "France" => "French",
-       "USA" => "English",
-       "Germany" => "German"
-
-  );
-
-  print_r($thirdArray);
-
-  $anotherArray[]="salad";
-
-  echo "<br /><br />";
-
-  print_r($anotherArray);
-       
-  echo "<br /><br />";
-
-  unset($thirdArray["Germany"]);
-
-  print_r($thirdArray);
-
-  echo "<br /><br />";
-
-  $name="Shem";
-
-  unset($name);
-
-  echo $name;
+  }
 
 ?>
