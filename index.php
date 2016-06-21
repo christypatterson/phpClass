@@ -1,16 +1,8 @@
 <?php
 
-  $number=1;
-  $otherNumber=2;
-  $thirdNumber=2;
+  for ($i=1; $i<=10; $i++)  {
 
-  if ($number==$otherNumber OR $thirdNumber==$otherNumber)  {
-
-    echo "True";
-
-  }  else  {
-
-    echo "False";
+    echo $i."<br />";
 
   }
 
