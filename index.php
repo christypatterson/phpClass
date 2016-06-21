@@ -6,7 +6,7 @@
 
   while ($array[$i]) {
 
-    echo $array[$i]."<br />";
+    echo "Key: $i Value: $array[$i]"."<br />";
 
     $i++;
 
