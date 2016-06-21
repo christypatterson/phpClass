@@ -1,10 +1,12 @@
 <?php
 
-  $i=1;
+  $i=0;
 
- while ($i<20) {
+  $array=array("apple", "banana", "grape");
 
-    echo $i."<br />";
+  while ($array[$i]) {
+
+    echo $array[$i]."<br />";
 
     $i++;
 
