@@ -1,17 +1,32 @@
-<?php
+<!DOCTYPE html>
+<html>
+<head>
+ <meta charset="UTF-8" />
+ <meta http-equiv="Content-type" content="text/html; charset=utf-8" />
+ <meta name="viewport" content="width=device-width, initial-scale-=1" />
+ <title>My Webpage</title>
+</head>
 
-  $number=1;
-  $otherNumber=2;
-  $thirdNumber=2;
+<body>
+<div>
 
-  if ($number==$otherNumber OR $thirdNumber==$otherNumber)  {
+  <?php
 
-    echo "True";
+    if ($_GET["language"]) {
 
-  }  else  {
-
-    echo "False";
+     echo "Your chosen language is: ".($_GET['language']);
 
   }
 
-?>
+  ?>
+
+
+  <form>
+    <label for="language">Language</label>
+    <input type="text" name="language" />
+    <button type="submit" value="Submit">Submit</button>
+  </form>
+
+</div>
+</body>
+</html>
