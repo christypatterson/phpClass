@@ -1,16 +1,9 @@
+This is some text.
+
 <?php
 
-  $i=0;
-
-  $array=array("apple", "banana", "grape");
-
-  while ($array[$i]) {
-
-    echo "Key: $i Value: $array[$i]"."<br />";
-
-    $i++;
-
-
-  }
+  print_r($_GET);
 
 ?>
+
+Here is more text.
