@@ -1,21 +1,16 @@
 <?php
 
- $array=array("cat", "dog", "turtle", "kangaroo");
+  $i=0;
 
-  foreach ($array as $key => $value)  {
+  $array=array("apple", "banana", "grape");
 
-    echo "Key:$key Value:$value <br />";
+  while ($array[$i]) {
 
-  }
-  
- /*
+    echo "Key: $i Value: $array[$i]"."<br />";
 
-  for ($i=500; $i>=100; $i=$i-5)  {
+    $i++;
 
-    echo $i."<br />";
 
   }
-
-  */
 
 ?>
