@@ -1,17 +1,21 @@
 <?php
 
-  $number=1;
-  $otherNumber=2;
-  $thirdNumber=2;
+ $array=array("cat", "dog", "turtle", "kangaroo");
 
-  if ($number==$otherNumber OR $thirdNumber==$otherNumber)  {
+  foreach ($array as $key => $value)  {
 
-    echo "True";
-
-  }  else  {
-
-    echo "False";
+    echo "Key:$key Value:$value <br />";
 
   }
+  
+ /*
+
+  for ($i=500; $i>=100; $i=$i-5)  {
+
+    echo $i."<br />";
+
+  }
+
+  */
 
 ?>
